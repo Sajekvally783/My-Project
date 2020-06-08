@@ -1,0 +1,62 @@
+.container{
+    margin: 150px;
+}
+.container:hover .circel0,
+.container:hover .circel1,
+.container:hover .circel2,
+.container:hover .circel3,
+.container:hover .circel4,
+.container:hover .circel5{
+    transform: translateX(400px);
+}
+    
+
+.circel0{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: yellow;
+    margin: 10px;
+    transition: all 2s liner;
+}
+.circel1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: green;
+    margin: 10px;
+    transition: all 2s ease;
+}
+.circel2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: blue;
+    margin: 10px;
+    transition: all 2s ease-in;
+}
+.circel3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 10px;
+    transition: all 2s ease-out;
+}
+
+.circel4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: orange;
+    margin: 10px;
+    transition: all 2s cubic-bezier(0,1,.98,0);
+}
+.circel5 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background: #f1f1f1;
+  transition: all 1.5s cubic-bezier(0,1,.98,0); 
+}
